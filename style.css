@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+/* navbar */
+.nav-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 4rem;
+}
+.nav-title{
+    font-family:segoe print;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link a{
+    font-family:myriad pro;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border-radius:5px;
+}
+
+.nav-icon a{
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.nav-link a:hover{
+    -webkit-text-stroke: 1px #000
+}
+
+#menu{
+    display: none;
+}
+/* navbar */
+
